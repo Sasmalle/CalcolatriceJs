@@ -1,0 +1,70 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.calcolatrice {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.display input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+}
+
+.tastiera {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numero {
+    background-color: #eee;
+}
+
+.operazione {
+    background-color: #ff9f00;
+}
+
+.cancella {
+    background-color: #ff0000;
+}
+
+.uguale {
+    background-color: #00a2ff;
+}
